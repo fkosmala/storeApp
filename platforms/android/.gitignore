@@ -1,9 +1,8 @@
 # Non-project-specific build files:
 build.xml
 local.properties
-/gradlew
-/gradlew.bat
-/gradle
+.gradle
+.idea
 # Ant builds
 ant-built
 ant-gen
@@ -12,3 +11,5 @@ gen
 out
 # Gradle builds
 /build
+# Cordova builds
+CordovaLib/build
