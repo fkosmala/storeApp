@@ -1,0 +1,1 @@
+use /{Project_root_directory}/appAssets/www instead because gradle can't copy this folder properly
