@@ -3,6 +3,7 @@ build.xml
 local.properties
 .gradle
 .idea
+android.iml
 # Ant builds
 ant-built
 ant-gen
