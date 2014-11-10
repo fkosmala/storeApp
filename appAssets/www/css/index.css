@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+    src:  url('/fonts/Montserrat-Regular.ttf.woff') format('woff'),
+    url('/fonts/Montserrat-Regular.ttf.svg#Montserrat-Regular') format('svg'),
+    url('/fonts/Montserrat-Regular.ttf.eot'),
+    url('/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 13pt "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  background-color: #333;
+}
+
+#header {
+	color: white;
+	background-color: black;
+	width: 98%;
+	padding: 1%;
+}
+
+#content {
+	width: 95%;
+	margin: 2% auto;
+	padding: 1%;
+	background-color: white;
+	color: black;
+}
+
+label {
+	font-size: 10pt;
+}
+
+.button-error {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+a {
+  color: #00B7FF;
+}
+
+.mapcontainer {
+	max-width: 80%;
+	margin:auto;
+}
+
+.mapTooltip {
+	position : fixed;
+	background-color : #fff;
+	moz-opacity:0.70;
+	opacity: 0.70;
+	filter:alpha(opacity=70);
+	border-radius:10px;
+	padding : 10px;
+	z-index: 1000;
+	max-width: 200px;
+	display:none;
+	color:#343434;
+}

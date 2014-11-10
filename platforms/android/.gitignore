@@ -4,6 +4,7 @@ local.properties
 .gradle
 .idea
 android.iml
+assets/
 # Ant builds
 ant-built
 ant-gen
