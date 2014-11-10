@@ -5,7 +5,7 @@ local.properties
 .idea
 android.iml
 # Ant builds
-ant-built
+ant-build
 ant-gen
 # Eclipse builds
 gen
