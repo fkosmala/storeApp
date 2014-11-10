@@ -6,7 +6,7 @@ local.properties
 android.iml
 assets/
 # Ant builds
-ant-built
+ant-build
 ant-gen
 # Eclipse builds
 gen
